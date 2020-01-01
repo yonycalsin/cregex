@@ -4,9 +4,10 @@
   "description": "☕ Regular validation expressions (regex) for javascript🎉",
   "main": "dist/src/index.js",
   "scripts": {
-    "start": "gulp",
-    "build": "gulp prod",
-    "test": "jest"
+    "start": "yarn prebuild && gulp",
+    "build": "yarn prebuild && gulp prod",
+    "test": "jest",
+    "prebuild": "rimraf dist"
   },
   "repository": {
     "type": "git",
