@@ -267,5 +267,6 @@ const cregexs = {
    },
    isUppercase: (): RegExp => /\b[A-Z0-9]+\b/,
 };
-export default cregexs;
-export { cregexs };
+
+module.exports = cregexs;
+module.exports.cregexs = cregexs;
