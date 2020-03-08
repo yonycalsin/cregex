@@ -8,12 +8,5 @@
 
 # Files
 .gitignore
-.npmrc
-*.map
-gulpfile.js
-tslint.json
+.prettierrc.js
 tsconfig.json
-.npmignore
-jest.config.js
-demo.js
-.editorconfig
