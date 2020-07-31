@@ -34,7 +34,7 @@
    },
    "homepage": "https://github.com/yonicb/cregex#readme",
    "devDependencies": {
-      "@types/jest": "^24.0.25",
+      "@types/jest": "^26.0.8",
       "@types/node": "^13.1.2",
       "del": "^5.1.0",
       "gulp": "^4.0.2",
